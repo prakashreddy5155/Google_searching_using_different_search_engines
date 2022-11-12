@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+</head>
+<body>
+
+    <button onclick = "search()"> Click here to search the google</button>
+
+
+    <script> 
+    
+    function search()
+    {
+        var content = prompt("Enter what do u want to search :");
+
+        var val = prompt("Enter 1 for to search in the same tab \n  2 to search in another tab: ");
+
+        var  searchenginechoice = prompt("Enter 1 to choose google search engine \n 2.DuckDuckgo searchengine\n3.Info.com search engine\n4.ecosia search engine\n5.bing search engine\n");
+
+        if(searchenginechoice == 1)
+        {
+            googlesearchengine();
+        }
+        else if(searchenginechoice == 2)
+    {
+        duckduckgo();
+    }
+    else if(searchenginechoice == 3)
+    {
+        info();
+    }
+    else if(searchenginechoice == 4)
+    {
+        ecosia();
+    }
+    else if(searchenginechoice == 5)
+    {
+        bing();
+    }
+
+        
+function googlesearchengine()
+{
+   
+    
+    if(val == 1)
+    {
+        window.open("https://www.google.com/search?q="+content,"_parent");
+    }
+    else if(val == 2)
+    {
+        window.open("https://www.google.com/search?q="+content,"_blank");
+    }
+}
+
+
+function duckduckgo()
+{
+   
+    
+    if(val == 1)
+    {
+        window.open("https://www.duckduckgo.com/search?q="+content,"_parent");
+    }
+    else if(val == 2)
+    {
+        window.open("https://www.duckduckgo.com/search?q="+content,"_blank");
+    }
+}
+
+
+function info()
+{
+   
+    
+    if(val == 1)
+    {
+        window.open("https://www.info.com/search?q="+content,"_parent");
+    }
+    else if(val == 2)
+    {
+        window.open("https://www.info.com/search?q="+content,"_blank");
+    }
+}
+
+function ecosia()
+{
+   
+    
+    if(val == 1)
+    {
+        window.open("https://www.ecosia.com/search?q="+content,"_parent");
+    }
+    else if(val == 2)
+    {
+        window.open("https://www.ecosia.com/search?q="+content,"_blank");
+    }
+}
+
+function bing()
+{
+   
+    
+    if(val == 1)
+    {
+        window.open("https://www.bing.com/search?q="+content,"_parent");
+    }
+    else if(val == 2)
+    {
+        window.open("https://www.bing.com/search?q="+content,"_blank");
+    }
+}
+    }
+
+    
+    </script>
+</body>
+</html>
