@@ -7,4 +7,4 @@ with out having to toggle settings
 You can use www.google.com/search?q="ur_search_query"  but then what if you wanted to use Ecosia search engine? will you toggle ? 
 so for that purpose u can downlaod and use this. 
 
-simply speaking this will make ur searching easier. 
+simply speaking this will make ur Browsing in the internet easier
